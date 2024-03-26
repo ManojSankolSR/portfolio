@@ -4,7 +4,7 @@ import HomeScreen from './Screens/HomeScreen';
 import AboutScreen from './Screens/AboutScreen';
 import ProjectsScreen from './Screens/ProjectsScreen';
 import KnownTechsScreen from './Screens/KnownTechsScreen';
-import {createBrowserRouter,RouterProvider} from 'react-router-dom'
+import {createBrowserRouter,RouterProvider,createHashRouter} from 'react-router-dom'
 import NavbarForLargeScreens  from './components/NavbarForLargeScreens'
 import NavBarForSmallAndMediumScreens  from './components/NavBarForSmallAndMediumScreens'
 import  { useState } from "react";
@@ -19,7 +19,7 @@ function App() {
   
   const [isDark,setIsDark]=useState(false);
 
-  const router=createBrowserRouter([
+  const router=createHashRouter([
     {
   
       path:'/',
