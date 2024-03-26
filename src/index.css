@@ -1,0 +1,68 @@
+
+
+:root{
+  --background-color:white;
+  --foeground-color:black;
+  --text-color:black;
+  --button-color:black;
+  --button-text-color:white;
+  --Maincontainer--background-color: rgb(246, 214, 214);
+  --custom-container-shadow-color:black;
+  --custom-container-bg-color:white;
+
+
+
+  
+}
+
+
+[data-theme="dark"]{
+
+
+
+  --background-color:rgb(34, 34, 34);
+  --foeground-color:white;
+  --text-color:white;
+  --button-color:white;
+  --button-text-color:black;
+  --Maincontainer--background-color: rgb(53, 47, 68);
+  --custom-container-shadow-color:white;
+  --custom-container-bg-color:rgb(34, 34, 34);
+
+
+
+
+
+}
+
+
+
+*{
+  transition: all .25s ease-in-out;
+  
+}
+
+
+#main-div{
+  background-color: var(--background-color);
+  
+}
+
+
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--background-color);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
