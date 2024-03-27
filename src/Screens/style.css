@@ -406,9 +406,9 @@ dialog[open]{
         /* height: 90vh; */
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: start;
         row-gap: 20px;
-        padding: 0px 10px 0px 10px;
+        padding: 30px 10px 0px 10px;
         /* justify-content: center;
         align-items: center;
         vertical-align: middle; */
