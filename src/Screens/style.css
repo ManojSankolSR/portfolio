@@ -408,6 +408,7 @@ dialog[open]{
         flex-direction: column;
         justify-content: center;
         row-gap: 20px;
+        padding: 0px 10px 0px 10px;
         /* justify-content: center;
         align-items: center;
         vertical-align: middle; */
@@ -442,7 +443,7 @@ dialog[open]{
     }
     #devDescription{
         font-family: "Montserrat";
-        font-size: 13px;
+        font-size: 14px;
         font-weight: 500;
         line-height:20px;
         text-align: center;
@@ -510,11 +511,11 @@ dialog[open]{
 
     .custombutton1{
         font-family: "Montserrat";
-        font-size: 16px;
+        font-size: 14px;
         text-decoration: none;
         color: var(--button-text-color);
         background-color: var(--button-color);
-        padding: 12px 12px;
+        padding: 10px 12px;
         border-radius: 10px;
         display: flex;
         align-items: center;
@@ -523,7 +524,7 @@ dialog[open]{
     }
     .custombutton1 img{
     
-        height: 19px;
+        height: 21px;
         /* stroke: white;
         color: white; */
     }
