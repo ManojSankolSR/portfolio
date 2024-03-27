@@ -1,4 +1,5 @@
 import React from 'react'
+import Typewriter from 'typewriter-effect';
 
 
 
@@ -13,7 +14,16 @@ const HomeScreen = ({isDark}) => {
                     </div>
                     <div class="gap"></div>
                     <div id="devHobbies">
-                        I Am A Student
+                    I Am A&nbsp;
+                        <Typewriter
+                        options={{
+                            
+                            strings: ['Student', 'Coder'],
+                            autoStart: true,
+                            loop: true,
+                        }}
+                        />
+                        
                     </div>
                     <div class="gap">
                     </div>
@@ -24,7 +34,8 @@ const HomeScreen = ({isDark}) => {
                     <div class="gap"></div>
                     <br/>
                     <div class="row">
-                        <a href="" class="custombutton1"><img src={isDark?'./svgs/external-link-dark.svg':'./svgs/external-link-light.svg'}  alt="" />Resume</a>
+                        <a href="" class="custombutton1"><img src={isDark?'./svgs/external-link-dark.svg':'./svgs/external-link-light.svg'}  alt="" /> &nbsp; Resume</a>
+
                         <a href="" class="custombutton2">Contact</a>
                     </div>
                 </div>

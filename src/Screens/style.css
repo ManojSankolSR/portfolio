@@ -8,15 +8,18 @@
 
 
 #ktsMainDiv{
+    margin: 0px 10px 10px 10px;
     
     background-color: var(--Maincontainer--background-color); border-radius: 30px; display: flex; align-items: center; flex-direction: column; padding: 20px;
 
 }
 #ProjectsMaindiv{
+    margin: 0px 10px 10px 10px;
 
     background-color: var(--Maincontainer--background-color); border-radius: 30px; display: flex; align-items: center; flex-direction: column; padding: 30px;
 }
 #AboutMainDiv{
+    margin: 0px 10px 10px 10px;
     /* color: var(--text-color); */
     background-color: var(--Maincontainer--background-color); border-radius: 30px; display: flex; align-items: center; flex-direction: column ;padding: 20px
 
@@ -139,6 +142,8 @@
     font-family: "Montserrat";
     font-size: 25px;
     font-weight: 500;
+    display: flex;
+    
     color:var(--text-color);
     
 }
@@ -415,7 +420,7 @@ dialog[open]{
         display: flex;
         align-items: center;
         justify-content: space-between;
-        margin: 10px 10px 0px 0px;
+        margin: 0px 10px 0px 0px;
     }
     .content{
         /* background-color: red; */
@@ -617,6 +622,53 @@ dialog[open]{
         cursor: pointer;
 
         
+    }
+    .About-Course{
+      
+        font-size:19px;
+      
+    
+    }
+    .About-Course-Duration{
+   
+        font-size:13px;
+       
+        
+    
+    }
+    .About-Course-Description{
+     
+        font-size:13px;
+       
+    
+    }
+    .About-Course-Location{
+
+        font-size:13px;
+    
+      
+    
+    }
+    .ProjectType{
+        font-family: "Montserrat";
+        color: rgb( 233, 30,99);
+        font-size: 15px;
+        font-weight: 500;
+    
+    }
+    .ProjectTitle{
+       
+        font-family: "Montserrat";
+        font-size: 21px;
+        font-weight: 700;
+        color: var(--text-color);
+    }
+    .ProjectDescription{
+       
+        font-family: "Montserrat";
+        font-size: 13px;
+        color: var(--text-color);
+        /* font-weight: 700; */
     }
     
 
