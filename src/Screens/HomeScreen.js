@@ -30,9 +30,9 @@ const HomeScreen = ({isDark}) => {
                     <div id="devDescription">
                         As a skilled App developer, I am dedicated to turning ideas into innovative Cross-Platform applications. Explore my latest projects, showcasing my expertise in Flutter and Backend Development.
                     </div>
-                    
-                    <div class="gap"></div>
-                    <br/>
+                    {/* <div class="gap"></div> */}
+                    <br />
+                   
                     <div class="row">
                         <a href="" class="custombutton1"><img src={isDark?'./svgs/external-link-dark.svg':'./svgs/external-link-light.svg'}  alt="" /> &nbsp; Resume</a>
 

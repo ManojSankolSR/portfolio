@@ -399,6 +399,9 @@ dialog[open]{
         max-width: 300px;
        
      }
+     .gap{
+        height: 10px;
+    }
      .title{
         font-size: 25px;
     }
@@ -516,7 +519,7 @@ dialog[open]{
         color: var(--button-text-color);
         background-color: var(--button-color);
         padding: 10px 12px;
-        border-radius: 10px;
+        border-radius: 7px;
         display: flex;
         align-items: center;
         
